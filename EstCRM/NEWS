@@ -1,0 +1,30 @@
+EstCRM_1.5 (2022-6-13)
+
+  * Maintainer contact information is updated
+  
+EstCRM_1.4 (2015-7-11)
+
+  * The previous versions of EstCRMitem function only estimated item parameters using Shojima's simplified EM algorithm. 
+    Now, a new argument is added to the function such that the user can also choose Wang & Zeng's algorithm when estimating item parameters. 
+    In addition, a new argument is added for the Wang & Zeng algorithm. If BFGS is TRUE, Broyden?Fletcher?Goldfarb?Shanno (BFGS) algorithm  
+    is used to approximate the Hessian at each cycle. If BFGS is FALSE, Hessian is directly computed at each cycle.
+
+  * The EstCRMitem item function is updated such that it returns the standard error of the item parameter estimates.
+
+EstCRM_1.3 (2012-07-28)
+
+  * Small changes are added to printing the EstCRMitem output.
+
+EstCRM_1.2 (2012-02-2)
+
+  * A new function bootCRM() is added to estimate the standard errors of item parameter estimates using non-parameteric bootstrap sampling
+
+EstCRM_1.1 (2011-06-17)
+
+  * DESCRIPTION and Rd files are updated
+  
+  * A new dataset (SelfEff) and sample R codes to analyze the new dataset are added 
+
+EstCRM_1.0 (2011-06-15)
+
+  * initial release on CRAN

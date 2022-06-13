@@ -1,0 +1,14 @@
+importFrom(Hmisc, cut2)
+importFrom(lattice, wireframe)
+importFrom(stats, rnorm)
+importFrom(stats, cov)
+importFrom(stats, dnorm)
+importFrom(stats, integrate)
+importFrom(stats, median)
+importFrom(stats, na.omit)
+importFrom(stats, sd)
+importFrom(stats, var)
+
+export(bootCRM, EstCRMitem, EstCRMperson, fitCRM, plotCRM, simCRM)
+
+S3method(print,CRM)
