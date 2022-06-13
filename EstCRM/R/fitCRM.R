@@ -16,7 +16,7 @@ if(max(na.omit(data[,i]))> max.item[i]) stop("The column ",i," has values higher
 user specified max.item vector. Please check and clean your data.")
 }
 
-if(class(est.thetas)!="CRMtheta") stop("The estimated thetas is not an object created by EstCRMperson()")
+if(!inherits(est.thetas,what='CRMtheta')) stop("The estimated thetas is not an object created by EstCRMperson()")
 
 
 data$theta <- est.thetas$thetas[,2]
