@@ -1,6 +1,6 @@
 Package: EstCRM
-Version: 1.5
-Date: 2022-6-13
+Version: 1.6
+Date: 2022-9-12
 Title: Calibrating Parameters for the Samejima's Continuous IRT Model
 Author: Cengiz Zopluoglu 
 Maintainer: Cengiz Zopluoglu <cen.zop@gmail.com>

@@ -52,7 +52,7 @@ Z_{ij}=ln(\frac{X_{ij}}{k_{j}-X_{ij}})
 
 Then, the conditional probability density function of the random variable \emph{Z} is equal to:\cr
 \deqn{
-\emph{f}(z_{ij}|\theta_{i},a_{j},b_{j},\alpha_{j})=\frac{a_{j}}{\sqrt{2\pi}\alpha_{j}}exp^{-\frac{[a_{j}(\theta_{i}-b_{j}-\frac{z_{ij}}{\alpha_{j}})]^2}{2}}
+{f}(z_{ij}|\theta_{i},a_{j},b_{j},\alpha_{j})=\frac{a_{j}}{\sqrt{2\pi}\alpha_{j}}exp^{-\frac{[a_{j}(\theta_{i}-b_{j}-\frac{z_{ij}}{\alpha_{j}})]^2}{2}}
 }{Please see the manual for the equation!}
 
 The conditional pdf of \emph{Z} is a normal density function with a mean of \if{latex}{\out{$\mathrel\alpha$}}\ifelse{html}{\emph{\out{&alpha;}}}{}(\if{latex}{\out{$\mathrel\theta$}}\ifelse{html}{\emph{\out{&theta;}}}{}-\emph{b}) and a variance of \if{latex}{\out{$\mathrel\alpha^2$}}\ifelse{html}{\emph{\out{&alpha;}^2}}{}/ \if{latex}{\out{$a^2$}}\ifelse{html}{a^2}{}.\cr
